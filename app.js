@@ -17,7 +17,7 @@ button.addEventListener("click", () => {
 input.addEventListener("keyup", function(){
 
     txtInput = input.value.toLowerCase().replace(/[^A-Z0-9]/ig, "");
-    if(txtInput.value){
+    if(txtInput){
         button.classList.add("active")
     }else{
         button.classList.remove("active")
